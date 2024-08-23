@@ -31,38 +31,28 @@
 ### Tabla de contenidos
 
 1. [Introducción](#introduccion)
-2. [INSTRUCCIONES](#instrucciones)
+2. [Archivos importantes de este repositorio](#archivos)
+3. [Construido con](#consturido)
+4. [Pre-requisitos](#prerequisitos)
+5. [Ejecución del Archivo Jupyter Notebook](#ejecucion)
+6. [Repositorio a la aplicacion con front-end Streamlit](#otroRepositorio)
 
 <hr>
 
 <!-- ABOUT THE PROJECT -->
 
 <a name="introduccion"></a>
-## Introduccion
+## INTRODUCCION
 
-SmartCheff, es un sistema de inteligencia artificial innovador que permite crear recetas de cocina personalizadas a partir de una lista de ingredientes. Solo necesitas ingresar los ingredientes disponibles, y la IA se encargará de sugerir platos creativos que puedes preparar. Además, genera una imagen del plato final, brindándote una visualización clara de lo que puedes esperar al seguir la receta. Ideal para quienes buscan inspiración en la cocina o quieren aprovechar al máximo los ingredientes que tienen a mano.
+SmartCheff, es un sistema de inteligencia artificial innovador que permite crear recetas de cocina personalizadas a partir de una lista de ingredientes. Solo necesitas ingresar los ingredientes disponibles, y la IA se encargará de sugerir platos creativos que puedes preparar. Además, genera una imagen del plato final, brindándote una visualización clara de lo que puedes esperar al seguir la receta. Ideal para quienes buscan inspiración en la cocina o quieren aprovechar al máximo los ingredientes que tienen a mano. 
 
-La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio (https://github.com/hmfarias/SmartCheff-IA.git).
+(Mayores detalles se brindan en los archivos incluídos en el repositorio ([Ver siguiente punto](#archivos))
 
-<div align="center">
-        <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
-</div>
-
-La siguiente imágen muestra un modelo de receta generado en este Jupyter Notebook.
-
-<div align="center">
-        <img src="img1.png" alt="Imagen receta 1" width="270" height="270">
-        <img src="img2.png" alt="Imagen receta 2" width="270" height="270">
-        <img src="img3.png" alt="Imagen receta 3" width="270" height="270">
-</div>
-
-
-
-    
 [Volver al menú](#top)
+<hr>
 
-<a name="instrucciones"></a>
-## INSTRUCCIONES
+<a name="archivos"></a>
+## ARCHIVOS IMPORTANTES
 
 En este repositorio podrá encontrar:
 
@@ -72,12 +62,22 @@ En este repositorio podrá encontrar:
 **Archivo PDF** con el Trabajo Final que respalda al archivo anterior, con el nombre **"Trabajo final - Smart Cheff IA - Marcelo Farias.pdf"**
 (https://github.com/hmfarias/SmartCheff/blob/main/Trabajo%20final%20-%20Smart%20Cheff%20IA%20-%20Marcelo%20Farias.pdf)
 
-Ambos archivos presentan el mismo contenido, aunque el archivo Jupyter presenta el potencial de poder ejecutar la aplicación y observar el resultado.
-Para poder hacerlo, resulta necesario que usted tenga a mano su API Key de OpenAI válida, la cual le será solicitada por **prompt cifrado** en el punto titulado **7-IMPLEMENTACIÓN - Paso 3 - Definición de API Key**
+Ambos archivos presentan el mismo contenido con una explicación pormenorizada sobre el proyecto **Smart Cheff IA**, aunque el archivo Jupyter presenta el potencial de poder ejecutar la aplicación y observar el resultado.
+Para poder hacerlo, resulta necesario que usted tenga a mano su API Key de OpenAI válida, la cual le será solicitada por **prompt cifrado** en el punto titulado **7-IMPLEMENTACIÓN - Paso 3 - Definición de API Key** del archivo Jupyter mencionado.
 
+La siguiente imágen muestra un modelo de receta generado en el la ejecución del archivo Jupyter Notebook incluído en este repositorio.
 
+<div align="center">
+        <img src="img1.png" alt="Imagen receta 1" width="270" height="270">
+        <img src="img2.png" alt="Imagen receta 2" width="270" height="270">
+        <img src="img3.png" alt="Imagen receta 3" width="270" height="270">
+</div>
 
-### Construido con
+[Volver al menú](#top)
+<hr>
+
+<a name="consturido"></a>
+### CONSTRUIDO CON
 
 ![Static Badge](https://img.shields.io/badge/Python-green?style=for-the-badge) como lenguaje de programación que cuenta con una amplia gama de librerías y frameworks que facilitan la interacción con APIs y el procesamiento de datos. Librerías como openai están bien documentadas y simplifican enormemente la implementación de solicitudes API.
 
@@ -85,44 +85,29 @@ Para poder hacerlo, resulta necesario que usted tenga a mano su API Key de OpenA
 
 ![Static Badge](https://img.shields.io/badge/APIOpenAI-blue?style=for-the-badge) como API proveedora de modelos de inteligencia artificial desarrollado por OpenAI. Cada modelo de OpenAI, puede considerarse como una funcionalidad o capacidad específica. Estos modelos son entrenados para realizar diversas tareas relacionadas con el procesamiento del lenguaje natural. Pueden llevar a cabo funciones como generación de texto, imágenes, traducción de idiomas, respuestas a preguntas, redacción de contenido, etc., todo basado en el contexto proporcionado durante su entrenamiento.
 
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
-
-### Descripción general
-
-SmartCheff es un sistema de IA que ayude a los usuarios a crear recetas personalizadas a partir de los ingredientes que tienen en su cocina. Este problema es relevante porque muchas personas se sienten abrumadas por la falta de ideas para cocinar y terminan comprando ingredientes adicionales, lo que puede generar desperdicio de alimentos.
+[Volver al menú](#top)
+<hr>
 
 
-<img src="https://github.com/hmfarias/SmartCheff/blob/main/imgReceta.png" alt="Logo" width="900" height="auto">
 
+<a name="prerequisitos"></a>
+### PRE- REQUISITOS
 
-#### Uso de Librerías
+Antes de comenzar deberá contar con:
 
-- **openAI:** Para interactuar con las API de GPT-3 y DALL-E.
-- **Streamlit:** Para el front-end
-- **dotenv** Para controlar todos los pares de key-values de un archivo que sea etiquetado como archivo de entorno o . env y configurarlos como variables del entorno. (En este caso la API-KEY OpenAI)
-- **fpdf** Para generar el archivo PDF con la receta
-- **PILLOW** Para la edición de la imágen de la receta
-- **requests** Para hacer la petición HTTP de la imágen de la receta generada
-- **BytesIO**  Para manejar las imágenes como datos binarios en memoria.
-
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Comenzando
-
-Esta guía describe paso a paso cómo utilizar el sitio web de SmartCheff.
-
-### Prerequisitos
-
-Antes de comenzar la instalación, es necesario:
-
-- Python 3.8 o superior
-- Cuenta de OpenAI con acceso a las API de GPT-3 y DALL-E
+- Instalacion funcional de Jupyter Notebook
+- Python 3 o superior
 - Pip (gestor de paquetes de Python)
 - API Key de API openAI
 
-### Instalación 
+  
+[Volver al menú](#top)
+<hr>
+
+
+<a name="ejecucion"></a>
+### EJECUCION DEL ARCHIVO JUPYTER NOTEBOOK
+Para poder ejecutar el archivo Jupyter, usted deberá seguir los siguientes pasos:
 
 1. ##### Clonar el proyecto del repositorio
 
@@ -132,38 +117,45 @@ Antes de comenzar la instalación, es necesario:
 git init
 ```
 
-- Clonar todo el proyecto:
+- Clonar el repositorio
 
 ```
 git clone https://github.com/hmfarias/SmartCheff.git
 ```
-
-- Ejecuta Visual Studio Code
-
-- Crea un entorno virtual:
+2. ##### Ejecutar Jupyter Notebook
 ```
-  Paleta de comandos: "Crear Entorno o Create Environment"
-  Selecciona Venv
+jupyter notebook
 ```
+- Dentro de Jupyter, navegar hasta el archivo **Trabajo-Final-SmartCheff-IA.ipynb** y ejecutarlo 
 
-- Instala las dependencias:
-```
-pip install streamlit
-pip install openai
-pip install python-dotenv
-pip install fpdf
-pip install pillow
-pip install requests
+3. ##### Seguir el contenido del archivo
 
-```
-- Agrega la API-KEY de OpneAI, en el archivo .env
 
-- Ejecuta con el comando "streamlite run app.py"
-  
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+[Volver al menú](#top)
+<hr>
+
+
+<a name="otroREpositorio"></a>
+### REPOSITORIO A LA APLICACIÓN CON FRONT-END STREAMLIT 
+
+A manera de complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, pero con el uso de un front-end básico, generado mediante la libreria Streamlit.
+Si lo desea, puede acceder a dicho repositorio en el siguiente link:
+
+
+[Volver al menú](#top)
+<hr>
+
+
+La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio (https://github.com/hmfarias/SmartCheff-IA.git).
+
+<div align="center">
+        <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
+</div>
+
     
 <!-- CONTRIBUTING -->
 
+<a name="contribuyendo"></a>
 ## Contribuyendo
 
 Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que haga es **muy apreciada**.
@@ -177,25 +169,35 @@ Si tiene una sugerencia para mejorar este proyecto, por favor haga un "fork" al 
 4. Push a la nueva rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+[Volver al menú](#top)
+<hr>
+
+
 
 <!-- LICENSE -->
-
+<a name="licencia"></a>
 ## Licencia
 
 Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más información.
 
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+[Volver al menú](#top)
+<hr>
+
+
 
 <!-- CONTACT -->
 
+<a name="contacto"></a>
 ## Contacto
 
 Marcelo Farias - [+54 9 3512601888] - hmfarias7@gmail.com
 
 Link del Proyecto: [https://https://github.com/hmfarias/SmartCheff](https://https://github.com/hmfarias/SmartCheff)
 
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+[Volver al menú](#top)
+<hr>
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 
