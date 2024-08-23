@@ -6,66 +6,82 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/hmfarias/SmartCheff-IA">
-    <img src="https://github.com/hmfarias/SmartCheff-IA/blob/main/LOGO.png" alt="Logo" width="270" height="270">
+  <a href="https://github.com/hmfarias/SmartCheff">
+    <img src="https://github.com/hmfarias/SmartCheff/blob/main/LOGO.png" alt="Logo" width="270" height="270">
   </a>
-  <h2 align="center">PROYECTO SmartCheff-IA</h2>
+  <h2 align="center">PROYECTO SmartCheff</h2>
 
   <p align="center">
     Generador de Recetas de Cocina Potenciado por IA
     <br />
-    <a href="https://github.com/hmfarias/SmartCheff-IA"><strong>Explora los documentos »</strong></a>
+    <a href="https://github.com/hmfarias/SmartCheff"><strong>Explora los documentos »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/hmfarias/SmartCheff-IA">Ver repositorio</a>
+    <a href="https://github.com/hmfarias/SmartCheff">Ver repositorio</a>
     ·
-    <a href="https://github.com/hmfarias/SmartCheff-IA/issues">Reportar un error</a>
+    <a href="https://github.com/hmfarias/SmartCheff/issues">Reportar un error</a>
     ·
-    <a href="https://github.com/hmfarias/SmartCheff-IA/issues">Solicitar función</a>
+    <a href="https://github.com/hmfarias/SmartCheff/issues">Solicitar función</a>
   </p>
-
-
-  
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
+<a name="top"></a>
 ### Tabla de contenidos
 
-  <ol>
-    <li>
-      <a href="#introduccion">Introducción</a>
-      <ul>
-        <li><a href="#construido-con">Construido con</a></li>
-        <li><a href="#descripción-general">Desripción General</a></li>
-          <ul><a href="#uso-de-librerías">Uso de Librerías</a></ul>
-      </ul>
-    </li>
-    <li>
-      <a href="#comenzando">Comenzando</a>
-      <ul>
-        <li><a href="#prerequisitos">Prerequisitos</a></li>
-        <li><a href="#instalación">Instalación</a></li>
-      </ul>
-    </li>
-    <li><a href="#contribuyendo">Contribuyendo</a></li>
-    <li><a href="#licencia">Licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-  </ol>
+1. [Introducción](#introduccion)
+2. [INSTRUCCIONES](#instrucciones)
+
+<hr>
 
 <!-- ABOUT THE PROJECT -->
 
+<a name="introduccion"></a>
 ## Introduccion
 
-SmartCheff-IA, es un sistema de inteligencia artificial innovador que permite crear recetas de cocina personalizadas a partir de una lista de ingredientes. Solo necesitas ingresar los ingredientes disponibles, y la IA se encargará de sugerir platos creativos que puedes preparar. Además, genera una imagen del plato final, brindándote una visualización clara de lo que puedes esperar al seguir la receta. Ideal para quienes buscan inspiración en la cocina o quieren aprovechar al máximo los ingredientes que tienen a mano
+SmartCheff, es un sistema de inteligencia artificial innovador que permite crear recetas de cocina personalizadas a partir de una lista de ingredientes. Solo necesitas ingresar los ingredientes disponibles, y la IA se encargará de sugerir platos creativos que puedes preparar. Además, genera una imagen del plato final, brindándote una visualización clara de lo que puedes esperar al seguir la receta. Ideal para quienes buscan inspiración en la cocina o quieren aprovechar al máximo los ingredientes que tienen a mano.
 
-<img src="https://github.com/hmfarias/SmartCheff-IA/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
+La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio (https://github.com/hmfarias/SmartCheff-IA.git).
+
+<div align="center">
+        <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
+</div>
+
+La siguiente imágen muestra un modelo de receta generado en este Jupyter Notebook.
+
+<div align="center">
+        <img src="img1.png" alt="Imagen receta 1" width="270" height="270">
+        <img src="img2.png" alt="Imagen receta 2" width="270" height="270">
+        <img src="img3.png" alt="Imagen receta 3" width="270" height="270">
+</div>
+
+
+
     
-<p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
+[Volver al menú](#top)
+
+<a name="instrucciones"></a>
+## INSTRUCCIONES
+
+En este repositorio podrá encontrar:
+
+**Archivo Jupyter Notebook** con el nombre **"Trabajo-Final-SmartCheff-IA.ipynb"**, el cual corresponde al proyecto final presentado.
+(https://github.com/hmfarias/SmartCheff/blob/main/Trabajo-Final-SmartCheff-IA.ipynb)
+
+**Archivo PDF** con el Trabajo Final que respalda al archivo anterior, con el nombre **"Trabajo final - Smart Cheff IA - Marcelo Farias.pdf"**
+(https://github.com/hmfarias/SmartCheff/blob/main/Trabajo%20final%20-%20Smart%20Cheff%20IA%20-%20Marcelo%20Farias.pdf)
+
+Ambos archivos presentan el mismo contenido, aunque el archivo Jupyter presenta el potencial de poder ejecutar la aplicación y observar el resultado.
+Para poder hacerlo, resulta necesario que usted tenga a mano su API Key de OpenAI válida, la cual le será solicitada por **prompt cifrado** en el punto titulado **7-IMPLEMENTACIÓN - Paso 3 - Definición de API Key**
+
+
 
 ### Construido con
 
 ![Static Badge](https://img.shields.io/badge/Python-green?style=for-the-badge) como lenguaje de programación que cuenta con una amplia gama de librerías y frameworks que facilitan la interacción con APIs y el procesamiento de datos. Librerías como openai están bien documentadas y simplifican enormemente la implementación de solicitudes API.
+
+![Static Badge](https://img.shields.io/badge/Jupyter_Notebook-orange?style=for-the-badge) como entorno de desarrollo interactivo basado en la web que permite crear y compartir documentos que contienen código en vivo, visualizaciones y texto explicativo.
 
 ![Static Badge](https://img.shields.io/badge/APIOpenAI-blue?style=for-the-badge) como API proveedora de modelos de inteligencia artificial desarrollado por OpenAI. Cada modelo de OpenAI, puede considerarse como una funcionalidad o capacidad específica. Estos modelos son entrenados para realizar diversas tareas relacionadas con el procesamiento del lenguaje natural. Pueden llevar a cabo funciones como generación de texto, imágenes, traducción de idiomas, respuestas a preguntas, redacción de contenido, etc., todo basado en el contexto proporcionado durante su entrenamiento.
 
@@ -73,10 +89,10 @@ SmartCheff-IA, es un sistema de inteligencia artificial innovador que permite cr
 
 ### Descripción general
 
-SmartCheff-IA es un sistema de IA que ayude a los usuarios a crear recetas personalizadas a partir de los ingredientes que tienen en su cocina. Este problema es relevante porque muchas personas se sienten abrumadas por la falta de ideas para cocinar y terminan comprando ingredientes adicionales, lo que puede generar desperdicio de alimentos.
+SmartCheff es un sistema de IA que ayude a los usuarios a crear recetas personalizadas a partir de los ingredientes que tienen en su cocina. Este problema es relevante porque muchas personas se sienten abrumadas por la falta de ideas para cocinar y terminan comprando ingredientes adicionales, lo que puede generar desperdicio de alimentos.
 
 
-<img src="https://github.com/hmfarias/SmartCheff-IA/blob/main/imgReceta.png" alt="Logo" width="900" height="auto">
+<img src="https://github.com/hmfarias/SmartCheff/blob/main/imgReceta.png" alt="Logo" width="900" height="auto">
 
 
 #### Uso de Librerías
@@ -95,7 +111,7 @@ SmartCheff-IA es un sistema de IA que ayude a los usuarios a crear recetas perso
 
 ## Comenzando
 
-Esta guía describe paso a paso cómo utilizar el sitio web de SmartCheff-IA.
+Esta guía describe paso a paso cómo utilizar el sitio web de SmartCheff.
 
 ### Prerequisitos
 
@@ -119,7 +135,7 @@ git init
 - Clonar todo el proyecto:
 
 ```
-git clone https://github.com/hmfarias/SmartCheff-IA.git
+git clone https://github.com/hmfarias/SmartCheff.git
 ```
 
 - Ejecuta Visual Studio Code
@@ -177,7 +193,7 @@ Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más infor
 
 Marcelo Farias - [+54 9 3512601888] - hmfarias7@gmail.com
 
-Link del Proyecto: [https://https://github.com/hmfarias/SmartCheff-IA](https://https://github.com/hmfarias/SmartCheff-IA)
+Link del Proyecto: [https://https://github.com/hmfarias/SmartCheff](https://https://github.com/hmfarias/SmartCheff)
 
 <p align="right">(<a href="#tabla-de-contenidos">volver</a>)</p>
 
@@ -188,18 +204,18 @@ Link del Proyecto: [https://https://github.com/hmfarias/SmartCheff-IA](https://h
 <!-- [statuss-shield]: https://img.shields.io/badge/STATUS-Developing-green -->
 
 [statuss-shield]: https://img.shields.io/badge/STATUSS-finished-green
-[statuss-url]: https://https://github.com/hmfarias/SmartCheff-IA#readme
-[forks-shield]: https://img.shields.io/github/forks/hmfarias/SmartCheff-IA
-[forks-url]: https://github.com/hmfarias/SmartCheff-IA/network/members
-[stars-shield]: https://img.shields.io/github/stars/hmfarias/SmartCheff-IA
-[stars-url]: https://github.com/hmfarias/SmartCheff-IA/stargazers
-[issues-shield]: https://img.shields.io/github/issues/hmfarias/SmartCheff-IA
-[issues-url]: https://github.com/hmfarias/SmartCheff-IA/issues
+[statuss-url]: https://https://github.com/hmfarias/SmartCheff#readme
+[forks-shield]: https://img.shields.io/github/forks/hmfarias/SmartCheff
+[forks-url]: https://github.com/hmfarias/SmartCheff/network/members
+[stars-shield]: https://img.shields.io/github/stars/hmfarias/SmartCheff
+[stars-url]: https://github.com/hmfarias/SmartCheff/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hmfarias/SmartCheff
+[issues-url]: https://github.com/hmfarias/SmartCheff/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg
-[license-url]: https://github.com/hmfarias/SmartCheff-IA/blob/master/LICENSE.txt
-[product-screenshot]: https://github.com/hmfarias/SmartCheff-IA/blob/main/assets/images/screenShot.webp
-[product-screenshot-navbar]: https://github.com/hmfarias/SmartCheff-IA/blob/main/assets/images/navbar.webp
-[others-url]: https://github.com/hmfarias/SmartCheff-IA
+[license-url]: https://github.com/hmfarias/SmartCheff/blob/master/LICENSE.txt
+[product-screenshot]: https://github.com/hmfarias/SmartCheff/blob/main/assets/images/screenShot.webp
+[product-screenshot-navbar]: https://github.com/hmfarias/SmartCheff/blob/main/assets/images/navbar.webp
+[others-url]: https://github.com/hmfarias/SmartCheff
 
 
 
