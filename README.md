@@ -57,12 +57,12 @@ SmartCheff, es un sistema de inteligencia artificial innovador que permite crear
 <a name="archivos"></a>
 ## ARCHIVOS IMPORTANTES
 
-En este repositorio podrá encontrar:
+Entre los archivos de este repositorio, usted podrá encontrar dos que son los mas importantes:
 
-**Archivo Jupyter Notebook** con el nombre **"Trabajo-Final-SmartCheff-IA.ipynb"**, el cual corresponde al proyecto final presentado.
+1. **Archivo Jupyter Notebook** con el nombre **"Trabajo-Final-SmartCheff-IA.ipynb"**, el cual corresponde al proyecto final presentado.
 (https://github.com/hmfarias/SmartCheff/blob/main/Trabajo-Final-SmartCheff-IA.ipynb)
 
-**Archivo PDF** con el Trabajo Final que respalda al archivo anterior, con el nombre **"Trabajo final - Smart Cheff IA - Marcelo Farias.pdf"**
+2. **Archivo PDF** con el Trabajo Final que respalda al archivo anterior, con el nombre **"Trabajo final - Smart Cheff IA - Marcelo Farias.pdf"**
 (https://github.com/hmfarias/SmartCheff/blob/main/Trabajo%20final%20-%20Smart%20Cheff%20IA%20-%20Marcelo%20Farias.pdf)
 
 Ambos archivos presentan el mismo contenido con una explicación pormenorizada sobre el proyecto **Smart Cheff IA**, aunque el archivo Jupyter presenta el potencial de poder ejecutar la aplicación y observar el resultado.
