@@ -36,6 +36,9 @@
 4. [Pre-requisitos](#prerequisitos)
 5. [Ejecución del Archivo Jupyter Notebook](#ejecucion)
 6. [Repositorio a la aplicacion con front-end Streamlit](#otroRepositorio)
+7. [Contribuyendo](#contribuyendo)
+8. [Licencia](#licencia)
+9. [Contacto](#contacto)
 
 <hr>
 
@@ -154,7 +157,7 @@ La siguiente imágen muestra la pantalla front-end correspondiente a la aplicaci
 <!-- CONTRIBUTING -->
 
 <a name="contribuyendo"></a>
-## Contribuyendo
+## CONTRIBUYENDO
 
 Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que haga es **muy apreciada**.
 
@@ -174,7 +177,7 @@ Si tiene una sugerencia para mejorar este proyecto, por favor haga un "fork" al 
 
 <!-- LICENSE -->
 <a name="licencia"></a>
-## Licencia
+## LICENCIA
 
 Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más información.
 
@@ -186,7 +189,7 @@ Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más infor
 <!-- CONTACT -->
 
 <a name="contacto"></a>
-## Contacto
+## CONTACTO
 
 Marcelo Farias - [+54 9 3512601888] - hmfarias7@gmail.com
 
