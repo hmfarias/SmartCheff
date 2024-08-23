@@ -135,23 +135,21 @@ jupyter notebook
 <hr>
 
 
-<a name="otroREpositorio"></a>
+<a name="otroRepositorio"></a>
 ### REPOSITORIO A LA APLICACIÓN CON FRONT-END STREAMLIT 
 
 A manera de complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, pero con el uso de un front-end básico, generado mediante la libreria Streamlit.
 Si lo desea, puede acceder a dicho repositorio en el siguiente link:
+(https://github.com/hmfarias/SmartCheff-IA.git)
 
-
-[Volver al menú](#top)
-<hr>
-
-
-La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio (https://github.com/hmfarias/SmartCheff-IA.git).
+La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio mencionado.
 
 <div align="center">
         <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
 </div>
 
+[Volver al menú](#top)
+<hr>
     
 <!-- CONTRIBUTING -->
 
