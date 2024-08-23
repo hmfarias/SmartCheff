@@ -9,7 +9,7 @@
   <a href="https://github.com/hmfarias/SmartCheff">
     <img src="https://github.com/hmfarias/SmartCheff/blob/main/LOGO.png" alt="Logo" width="270" height="270">
   </a>
-  <h2 align="center">PROYECTO SmartCheff</h2>
+  <h2 align="center">Smart Cheff IA</h2>
 
   <p align="center">
     Generador de Recetas de Cocina Potenciado por IA
