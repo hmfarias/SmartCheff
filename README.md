@@ -35,7 +35,7 @@
 3. [Construido con](#consturido)
 4. [Pre-requisitos](#prerequisitos)
 5. [Ejecución del Archivo Jupyter Notebook](#ejecucion)
-6. [Repositorio a la aplicacion con front-end Streamlit](#otroRepositorio)
+6. [APLICACIÓN CON FRONT END](#otroRepositorio)
 7. [Contribuyendo](#contribuyendo)
 8. [Licencia](#licencia)
 9. [Contacto](#contacto)
@@ -139,17 +139,20 @@ jupyter notebook
 
 
 <a name="otroRepositorio"></a>
-### REPOSITORIO A LA APLICACIÓN CON FRONT-END STREAMLIT 
+### APLICACIÓN CON FRONT-END STREAMLIT 
 
-A manera de complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, pero con el uso de un front-end básico, generado mediante la libreria Streamlit.
+A manera de complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, e incorpora la utilización del modelo OpenAI TTS-1 (Texto a Audio), asi como el uso de un front-end básico, generado mediante la libreria Streamlit.
 
-Si lo desea, puede acceder a dicho repositorio en el siguiente link:
+Para descargar y utilizar esta aplicación, puede acceder a su repositorio en el siguiente link:
 (https://github.com/hmfarias/SmartCheff-IA.git)
 
 La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio mencionado.
 
 <div align="center">
-        <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb.png" alt="Logo" width="700" height="auto">
+  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb1.png" alt="Imagen web 1" width="700" height="auto">
+  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb2.png" alt="Imagen web 2" width="700" height="auto">
+  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb3.png" alt="Imagen web 3" width="700" height="auto">
+  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb4.png" alt="Imagen web 4" width="700" height="auto">
 </div>
 
 [Volver al menú](#top)
