@@ -62,6 +62,8 @@ Entre los archivos de este repositorio, usted podrá encontrar dos que son los m
 1. **Archivo Jupyter Notebook** con el nombre **"Trabajo-Final-SmartCheff-IA.ipynb"**, el cual corresponde al proyecto final presentado.
 (https://github.com/hmfarias/SmartCheff/blob/main/Trabajo-Final-SmartCheff-IA.ipynb)
 
+Para poder visualizar correctamente el archivo jupyter notebook con el trabajo final, es neceario clonar el presente repositorio y ejecutarlo desde jupyter notebook de manera local.
+
 2. **Archivo PDF** con el Trabajo Final que respalda al archivo anterior, con el nombre **"Trabajo final - Smart Cheff IA - Marcelo Farias.pdf"**
 (https://github.com/hmfarias/SmartCheff/blob/main/Trabajo%20final%20-%20Smart%20Cheff%20IA%20-%20Marcelo%20Farias.pdf)
 
