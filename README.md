@@ -141,18 +141,18 @@ jupyter notebook
 <a name="otroRepositorio"></a>
 ### APLICACIÓN CON FRONT-END STREAMLIT 
 
-A manera de complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, e incorpora la utilización del modelo OpenAI TTS-1 (Texto a Audio), asi como el uso de un front-end básico, generado mediante la libreria Streamlit.
+Como complemento, se ha creado una aplicación que implementa lo visto en el archivo jupyter, e **incorpora la utilización del modelo OpenAI TTS-1 (Texto a Audio)**, asi como el uso de un front-end básico, generado mediante la libreria Streamlit.
 
 Para descargar y utilizar esta aplicación, puede acceder a su repositorio en el siguiente link:
 (https://github.com/hmfarias/SmartCheff-IA.git)
 
-La siguiente imágen muestra la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio mencionado.
+Las siguientes imágens muestran la pantalla front-end correspondiente a la aplicación que se puede encontrar en el repositorio mencionado.
 
 <div align="center">
-  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb1.png" alt="Imagen web 1" width="700" height="auto">
-  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb2.png" alt="Imagen web 2" width="700" height="auto">
-  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb3.png" alt="Imagen web 3" width="700" height="auto">
-  <img src="https://github.com/hmfarias/SmartCheff/blob/main/imageWeb4.png" alt="Imagen web 4" width="700" height="auto">
+  <img src="imageWeb1.png" alt="Imagen receta 1" width="300" height="400">
+  <img src="imageWeb2.png" alt="Imagen receta 1" width="300" height="400">
+  <img src="imageWeb3.png" alt="Imagen receta 1" width="300" height="400">
+  <img src="imageWeb4.png" alt="Imagen receta 1" width="300" height="400">
 </div>
 
 [Volver al menú](#top)
